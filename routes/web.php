@@ -40,9 +40,6 @@ Route::get('practicas/logout', function() {
     return "Ha salido exitosamente de su cuenta.";
 });
 
-Route::get('practicas/dashboard', function() {
-    return "Se visualiza los informes.";
-});
 
 Route::get('practicas/admin/cursos', function() {
     return "Información de los cursos";
